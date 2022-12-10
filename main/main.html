@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>맛집지도</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="map.css" />
+    <script src="https://kit.fontawesome.com/2a610af076.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="inner">
+        <div class="nav-container">
+          <h1 class="nav-title"><a href="">맛집지도&nbsp&nbsp<i class="fa-solid fa-utensils"></i></a></h1>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="category">
+        <div class="inner">
+          <div class="category-container">
+            <h2 class="category-title">카테고리 선택&nbsp&nbsp<i class="fa-solid fa-bars"></i></h2>
+            <div class="category-list">
+              <button class="category-item" id="korea">한식&nbsp<i class="fa-solid fa-bowl-rice"></i></button
+              ><button class="category-item" id="china">중식&nbsp<span class="material-symbols-outlined">
+                ramen_dining
+                </span></button
+              ><button class="category-item" id="japan">일식&nbsp<span class="material-symbols-outlined">
+                bento
+                </span></button
+              ><button class="category-item" id="america">양식&nbsp<i class="fa-solid fa-pizza-slice"></i></button
+              ><button class="category-item" id="wheat">분식&nbsp<i class="fa-solid fa-plate-wheat"></i></button
+              ><button class="category-item" id="meat">구이&nbsp<i class="fa-solid fa-bacon"></i></button
+              ><button class="category-item" id="sushi">회/초밥&nbsp<i class="fa-solid fa-fish-fins"></i></button
+              ><button class="category-item" id="etc">기타&nbsp<i class="fa-solid fa-spinner"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="map" class="inner"></div>
+
+    </main>
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=062bc0e3eefb639a3c5df1918dce8a1a&libraries=services"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+.infowindow {
+  width: 25rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.infowindow-img-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.infowindow-img {
+  width: 100%;
+}
+
+.infowindow-title {
+  font-size: 2rem;
+}
+
+.infowindow-address {
+  font-size: 1.6rem;
+}
+
+.infowindow-btn {
+  font-size: 1.6rem;
+  text-decoration-line: none;
+}
+
+
+.add {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  background-color: rgb(0, 0, 0, 0);
+  border: 1px solid;
+  border-radius: 3px;
+  font-size: 1.5rem;
+}
+
+.add:hover {
+  box-shadow: 0 0 40px 40px rgb(244, 255, 142) inset;
+}
